@@ -1,73 +1,81 @@
 @use 'sass:math';
 
-$base-border-thickness : 1px !default;
-$base-border-radius : 10px !default;
+$border-thickness-base : 5px !default;
 
+$border-radius-base : 6px !default;
+$border-radius-small:  3px !default;
+$border-radius-large:  10px !default;
+$border-radius-xlarge:  20px !default;
+
+$btn-border-radius-base:   $border-radius-base !default;
+$btn-border-radius-small:  $border-radius-small !default;
+$btn-border-radius-large:  $border-radius-large !default;
+$btn-border-radius-xlarge : $border-radius-xlarge !default;
 
 $borders : (
     "border" : (
         "prefix":"b",
         "values":(
             "0":0,
-            "1":$base-border-thickness,
-            "2":$base-border-thickness*2,
-            "3":$base-border-thickness*4,
-            "4":$base-border-thickness*6,
-            "5":$base-border-thickness*8,
+            "1":$border-thickness-base,
+            "2":$border-thickness-base*2,
+            "3":$border-thickness-base*4,
+            "4":$border-thickness-base*6,
+            "5":$border-thickness-base*8,
         )
     ),
     "border-left" : (
         "prefix":"bl",
         "values":(
             "0":0,
-            "1":$base-border-thickness,
-            "2":$base-border-thickness*2,
-            "3":$base-border-thickness*4,
-            "4":$base-border-thickness*6,
-            "5":$base-border-thickness*8,
+            "1":$border-thickness-base,
+            "2":$border-thickness-base*2,
+            "3":$border-thickness-base*4,
+            "4":$border-thickness-base*6,
+            "5":$border-thickness-base*8,
         )
     ),
     "border-right" : (
         "prefix":"br",
         "values":(
             "0":0,
-            "1":$base-border-thickness,
-            "2":$base-border-thickness*2,
-            "3":$base-border-thickness*4,
-            "4":$base-border-thickness*6,
-            "5":$base-border-thickness*8,
+            "1":$border-thickness-base,
+            "2":$border-thickness-base*2,
+            "3":$border-thickness-base*4,
+            "4":$border-thickness-base*6,
+            "5":$border-thickness-base*8,
         )
     ),
     "border-top" : (
         "prefix":"bt",
         "values":(
             "0":0,
-            "1":$base-border-thickness,
-            "2":$base-border-thickness*2,
-            "3":$base-border-thickness*4,
-            "4":$base-border-thickness*6,
-            "5":$base-border-thickness*8,
+            "1":$border-thickness-base,
+            "2":$border-thickness-base*2,
+            "3":$border-thickness-base*4,
+            "4":$border-thickness-base*6,
+            "5":$border-thickness-base*8,
         )
     ),
     "border-bottom" : (
         "prefix":"bb",
         "values":(
             "0":0,
-            "1":$base-border-thickness,
-            "2":$base-border-thickness*2,
-            "3":$base-border-thickness*4,
-            "4":$base-border-thickness*6,
-            "5":$base-border-thickness*8,
+            "1":$border-thickness-base,
+            "2":$border-thickness-base*2,
+            "3":$border-thickness-base*4,
+            "4":$border-thickness-base*6,
+            "5":$border-thickness-base*8,
         )
     ),
     "border-radius" : (
         "prefix":"b-r",
         "values":(
-            "default": $base-border-radius,
+            "default": $border-radius-base,
             "none": 0,
-            "xs": math.div($base-border-radius, 4),
-            "sm": math.div($base-border-radius, 2),
-            "lg": $base-border-radius * 2,
+            "xs": math.div($border-radius-base, 4),
+            "sm": math.div($border-radius-base, 2),
+            "lg": $border-radius-base * 2,
             "full": 50%,
         )
     ),

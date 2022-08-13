@@ -1,36 +1,33 @@
 @use '../variables/' as *;
 
-@each $key , $value in $colors {
-    @each $k , $v in $value {
-        .text-#{$key}-#{$k} {
-            color : $v;
-        }
-        .text-hover-#{$key}-#{$k} {
-            &:hover {
-                color : lighten($v,5);
+@each $key,$value in $colors {
+    .text-#{$key} {
+        color : $value;
+    }
+    .text-hover-#{$key} {
+        color : lighten($value,10);
+    }
+
+    @if($value != white and $value != black){
+        @for $i from 1 through 9 {
+            .text-#{$key}-light-#{$i} {
+                color : mix(white,$value,$i*10);
+            }
+            .text-hover-#{$key}-light-#{$i} {
+                &:hover {
+                    color : mix(white,$value,$i*10);
+                }                    
             }
         }
-        @if ($v != black and $v != white) {
-            @for $i from 1 through 9 {
-                .text-#{$key}-#{$k}-light-#{$i} {
-                    background-color : mix(white,$v,$i*10);
-                }
-                .text-hover-#{$key}-#{$k}-light-#{$i} {
-                    &:hover {
-                        background-color : mix(white,$v,$i*10);
-                    }                    
-                }
+        @for $i from 1 through 9 {
+            .text-#{$key}-dark-#{$i} {
+                color : mix(black,$value,$i*10);
             }
-            @for $i from 1 through 9 {
-                .text-#{$key}-#{$k}--dark-#{$i} {
-                    background-color : mix(black,$v,$i*10);
-                }
-                .text-hover-#{$key}-#{$k}-light-#{$i} {
-                    &:hover {
-                        background-color : mix(black,$v,$i*10);
-                    }                    
-                }
-            }  
+            .text-hover-#{$key}-light-#{$i} {
+                &:hover {
+                    color : mix(black,$value,$i*10);
+                }                    
+            }
         }
     }
-} 
+}

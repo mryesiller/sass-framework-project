@@ -1,60 +1,80 @@
 
-$colors : (
-    "primary": (
-        "main": #00bcd4,
-        "light": #b3e5fc,
-        "dark": #00acc1,
-        "contrast": #fff
-    ),
-    "secondary" : (
-        "main" : #ffc107,
-        "light" : #fff3e0,
-        "dark" : #c2a700,
-        "contrast" : #000    
-    ),
-    "success" : (
-        "main" : #4caf50,
-        "light" : #e8f5e9,
-        "dark" : #388e3c,
-        "contrast" : #fff    
-    ),
-    "info" : (
-        "main" : #2196f3,
-        "light" : #e3f2fd,
-        "dark" : #0d47a1,
-        "contrast" : #fff    
-    ),
-    "warning" : (
-        "main" : #ff9800,
-        "light" : #fff3e0,
-        "dark" : #c27d0e,
-        "contrast" : #000    
-    ),
-    "danger" : (
-        "main" : #f44336,
-        "light" : #fce7e7,
-        "dark" : #b71c1c,
-        "contrast" : #fff    
-    ),
-    "light" : (
-        "main" : #f8f9fa,
-        "light" : #f8f9fa,
-        "dark" : #cbd3d9,
-        "contrast" : #000    
-    ),
-    "dark" : (
-        "main" : #343a40,
-        "light" : #343a40,
-        "dark" : #1d2124,
-        "contrast" : #fff    
-    ),
-    "white" : (
-        "main" : #fff,
-        "light" : #fff,
-        "dark" : #fff,
-        "contrast" : #000    
-    )
+$primary : blue !default;
+$secondary : purple !default;
+$tertiary : violet !default;
+$success : #4caf50 !default;
+$danger : #f44336 !default;
+$info : #ff9800 !default;
+$white : #fff !default;
+$dark : #343a40 !default;
 
-)
+$colors : (
+    "primary" : $primary,
+    "secondary" : $secondary,
+    "tertiary" : $tertiary,
+    "success" : $success,
+    "danger" : $danger,
+    "info" : $info,
+    "white" : $white,
+    "dark" : $dark
+) !default;
+
+// $colors : (
+//     "primary": (
+//         "main": #00bcd4,
+//         "light": #b3e5fc,
+//         "dark": #00acc1,
+//         "contrast": #fff
+//     ),
+//     "secondary" : (
+//         "main" : #ffc107,
+//         "light" : #fff3e0,
+//         "dark" : #c2a700,
+//         "contrast" : #000    
+//     ),
+//     "success" : (
+//         "main" : #4caf50,
+//         "light" : #e8f5e9,
+//         "dark" : #388e3c,
+//         "contrast" : #fff    
+//     ),
+//     "info" : (
+//         "main" : #2196f3,
+//         "light" : #e3f2fd,
+//         "dark" : #0d47a1,
+//         "contrast" : #fff    
+//     ),
+//     "warning" : (
+//         "main" : #ff9800,
+//         "light" : #fff3e0,
+//         "dark" : #c27d0e,
+//         "contrast" : #000    
+//     ),
+//     "danger" : (
+//         "main" : #f44336,
+//         "light" : #fce7e7,
+//         "dark" : #b71c1c,
+//         "contrast" : #fff    
+//     ),
+//     "light" : (
+//         "main" : #f8f9fa,
+//         "light" : #f8f9fa,
+//         "dark" : #cbd3d9,
+//         "contrast" : #000    
+//     ),
+//     "dark" : (
+//         "main" : #343a40,
+//         "light" : #343a40,
+//         "dark" : #1d2124,
+//         "contrast" : #fff    
+//     ),
+//     "white" : (
+//         "main" : #fff,
+//         "light" : #fff,
+//         "dark" : #fff,
+//         "contrast" : #000    
+//     )
+
+// )
 
 

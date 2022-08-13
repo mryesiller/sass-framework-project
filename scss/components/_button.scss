@@ -1,34 +1,120 @@
 @use '../variables/' as *;
+@use 'sass:math';
 
-@mixin btn($bg-color: #e2e2e2) {
+
+@mixin button-size($padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) {
+    padding: $padding-vertical $padding-horizontal;
+    font-size: $font-size;
+    line-height: $line-height;
+    border-radius: $border-radius;
+  }
+
+@mixin btn($bg-color: #e2e2e2) {    
     text-decoration: none;
     cursor:pointer;
     display: inline-block;
-    border:0;
-    padding: $base-padding $base-padding*2;
-    border-radius: $base-border-radius;
+    white-space: nowrap;
+    vertical-align: middle;
+    border:0;       
+    text-align:center;    
     background-color: $bg-color;
+    border: 1px solid transparent;
+    color: $white;
+    @include button-size($padding-base-vertical,$padding-base-horizontal,$font-size-base,$line-height-small,$btn-border-radius-base);
 }
+
 
 .btn {
     @include btn;
-  }
+}
 
-@each $key , $value in $colors {
-    @each $k , $v in $value {
-        .btn-#{$key}-#{$k} {
-            @include btn($v);
-            &:hover {
-                background-color: lighten($v,5);
+$button-sizes : "btn-sm", "btn-lg", "btn-xl";
+
+@each $size in $button-sizes {
+    @if($size == "btn-sm") {
+        .#{$size} {
+            @include button-size($padding-small-vertical !important, $padding-small-horizontal !important, $font-size-small !important, $line-height-small !important, $btn-border-radius-small !important);
+            
+        }
+    }
+    @if($size == 'btn-lg') {
+        .#{$size} {
+            @include button-size($padding-large-vertical !important, $padding-large-horizontal !important, $font-size-large !important, $line-height-large !important, $btn-border-radius-large !important);
+        }
+    }
+    @if($size == 'btn-xl') {
+        .#{$size} {
+            @include button-size($padding-xlarge-vertical !important, $padding-xlarge-horizontal !important, $font-size-xlarge !important, $line-height-small !important, $btn-border-radius-large !important);
+        }
+    }
+}
+
+
+//button colors
+@each $key,$val in $colors {
+    .btn-#{$key} {
+        @include btn($val);
+        &:hover {
+            background-color: lighten($val, 10);
+          }
+    }
+    .btn-outlined-#{$key} {
+        @include btn(#fff);
+        color : $dark;
+        border: 1px solid $val;
+        &:hover {
+            color : white;
+            background-color: $val;
+        }
+        &:focus {
+            color : white;
+            background-color: $val;
+        }
+    }
+    @if($val != white and $val != black){
+        @for $i from 1 through 9 {
+            .btn-#{$key}-light-#{$i} {
+                background-color : mix(white,$val,$i*10);
+                &:hover {
+                    background-color: mix(white,$val,$i*10);
+                  }
+            }
+            .btn-outlined-#{$key}-light-#{$i} {
+                color : $dark;
+                background-color : mix(white,$val,$i*10);
+                border: 1px solid mix(white,$val,$i*10);
+                &:hover {
+                    color : white;
+                    background-color: mix(white,$val,$i*10);
+                }
+                &:focus {
+                    color : white;
+                    background-color: mix(white,$val,$i*10);
+                }
             }
         }
-        .btn-outlined-#{$key}-#{$k} {
-            @include btn(#fff);
-            border: 1px solid $v;
-            &:hover {
-                background-color: $v;
-                
+        @for $i from 1 through 9 {
+            .btn-#{$key}-dark-#{$i} {
+                background-color : mix(black,$val,$i*10);
+                &:hover {
+                    background-color: mix(black,$val,$i*10);
+                  }
+            }
+            .btn-outlined-#{$key}-dark-#{$i} {
+                color : $dark;
+                background-color : mix(black,$val,$i*10);
+                border: 1px solid mix(black,$val,$i*10);
+                &:hover {
+                    color : white;
+                    background-color: mix(black,$val,$i*10);
+                }
+                &:focus {
+                    color : white;
+                    background-color: mix(black,$val,$i*10);
+                }
             }
         }
     }
-} 
+    
+}
+
