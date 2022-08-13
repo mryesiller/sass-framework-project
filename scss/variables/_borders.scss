@@ -1,0 +1,91 @@
+@use 'sass:math';
+
+$base-border-thickness : 1px !default;
+$base-border-radius : 10px !default;
+
+
+$borders : (
+    "border" : (
+        "prefix":"b",
+        "values":(
+            "0":0,
+            "1":$base-border-thickness,
+            "2":$base-border-thickness*2,
+            "3":$base-border-thickness*4,
+            "4":$base-border-thickness*6,
+            "5":$base-border-thickness*8,
+        )
+    ),
+    "border-left" : (
+        "prefix":"bl",
+        "values":(
+            "0":0,
+            "1":$base-border-thickness,
+            "2":$base-border-thickness*2,
+            "3":$base-border-thickness*4,
+            "4":$base-border-thickness*6,
+            "5":$base-border-thickness*8,
+        )
+    ),
+    "border-right" : (
+        "prefix":"br",
+        "values":(
+            "0":0,
+            "1":$base-border-thickness,
+            "2":$base-border-thickness*2,
+            "3":$base-border-thickness*4,
+            "4":$base-border-thickness*6,
+            "5":$base-border-thickness*8,
+        )
+    ),
+    "border-top" : (
+        "prefix":"bt",
+        "values":(
+            "0":0,
+            "1":$base-border-thickness,
+            "2":$base-border-thickness*2,
+            "3":$base-border-thickness*4,
+            "4":$base-border-thickness*6,
+            "5":$base-border-thickness*8,
+        )
+    ),
+    "border-bottom" : (
+        "prefix":"bb",
+        "values":(
+            "0":0,
+            "1":$base-border-thickness,
+            "2":$base-border-thickness*2,
+            "3":$base-border-thickness*4,
+            "4":$base-border-thickness*6,
+            "5":$base-border-thickness*8,
+        )
+    ),
+    "border-radius" : (
+        "prefix":"b-r",
+        "values":(
+            "default": $base-border-radius,
+            "none": 0,
+            "xs": math.div($base-border-radius, 4),
+            "sm": math.div($base-border-radius, 2),
+            "lg": $base-border-radius * 2,
+            "full": 50%,
+        )
+    ),
+);
+
+@each $property, $map in $borders {
+    $prefix: map-get($map, "prefix");
+    $values: map-get($map, "values");
+  
+    @each $k, $v in $values {
+      @if($k == "default") {
+        .#{$prefix} {
+          #{$property}: $v;
+        }
+      } @else {
+        .#{$prefix}-#{$k}{
+          #{$property}: $v;
+        }
+      }
+    }
+  }
