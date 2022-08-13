@@ -1,0 +1,34 @@
+@use '../variables/' as *;
+
+@mixin btn($bg-color: #e2e2e2) {
+    text-decoration: none;
+    cursor:pointer;
+    display: inline-block;
+    border:0;
+    padding: 1em 2em;
+    border-radius: 10px;
+    background-color: $bg-color;
+}
+
+.btn {
+    @include btn;
+  }
+
+@each $key , $value in $colors {
+    @each $k , $v in $value {
+        .btn-#{$key}-#{$k} {
+            @include btn($v);
+            &:hover {
+                background-color: lighten($v,5);
+            }
+        }
+        .btn-outlined-#{$key}-#{$k} {
+            @include btn(#fff);
+            border: 1px solid $v;
+            &:hover {
+                background-color: $v;
+                
+            }
+        }
+    }
+} 

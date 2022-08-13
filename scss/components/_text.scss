@@ -1,0 +1,36 @@
+@use '../variables/' as *;
+
+@each $key , $value in $colors {
+    @each $k , $v in $value {
+        .text-#{$key}-#{$k} {
+            color : $v;
+        }
+        .text-hover-#{$key}-#{$k} {
+            &:hover {
+                color : lighten($v,5);
+            }
+        }
+        @if ($v != black and $v != white) {
+            @for $i from 1 through 9 {
+                .text-#{$key}-#{$k}-light-#{$i} {
+                    background-color : mix(white,$v,$i*10);
+                }
+                .text-hover-#{$key}-#{$k}-light-#{$i} {
+                    &:hover {
+                        background-color : mix(white,$v,$i*10);
+                    }                    
+                }
+            }
+            @for $i from 1 through 9 {
+                .text-#{$key}-#{$k}--dark-#{$i} {
+                    background-color : mix(black,$v,$i*10);
+                }
+                .text-hover-#{$key}-#{$k}-light-#{$i} {
+                    &:hover {
+                        background-color : mix(black,$v,$i*10);
+                    }                    
+                }
+            }  
+        }
+    }
+} 
