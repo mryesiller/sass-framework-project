@@ -33,18 +33,18 @@ $button-sizes : "btn-sm", "btn-lg", "btn-xl";
 @each $size in $button-sizes {
     @if($size == "btn-sm") {
         .#{$size} {
-            @include button-size($padding-small-vertical !important, $padding-small-horizontal !important, $font-size-small !important, $line-height-small !important, $btn-border-radius-small !important);
+            @include button-size($padding-small-vertical , $padding-small-horizontal !important, $font-size-small !important, $line-height-small !important, $btn-border-radius-small !important);
             
         }
     }
     @if($size == 'btn-lg') {
         .#{$size} {
-            @include button-size($padding-large-vertical !important, $padding-large-horizontal !important, $font-size-large !important, $line-height-large !important, $btn-border-radius-large !important);
+            @include button-size($padding-large-vertical , $padding-large-horizontal !important, $font-size-large !important, $line-height-large !important, $btn-border-radius-large !important);
         }
     }
     @if($size == 'btn-xl') {
         .#{$size} {
-            @include button-size($padding-xlarge-vertical !important, $padding-xlarge-horizontal !important, $font-size-xlarge !important, $line-height-small !important, $btn-border-radius-large !important);
+            @include button-size($padding-xlarge-vertical , $padding-xlarge-horizontal !important, $font-size-xlarge !important, $line-height-small !important, $btn-border-radius-large !important);
         }
     }
 }
