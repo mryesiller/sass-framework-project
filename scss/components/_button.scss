@@ -5,8 +5,8 @@
     cursor:pointer;
     display: inline-block;
     border:0;
-    padding: 1em 2em;
-    border-radius: 10px;
+    padding: $base-padding $base-padding*2;
+    border-radius: $base-border-radius;
     background-color: $bg-color;
 }
 

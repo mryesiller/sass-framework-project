@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .p-0 {
   padding: 0;
 }
@@ -423,171 +424,459 @@
 }
 
 .text-primary-main {
-  color: #000;
+  color: #00bcd4;
 }
 
 .text-hover-primary-main:hover {
-  color: #0d0d0d;
+  color: #00d3ee;
+}
+
+.text-primary-main-light-1 {
+  background-color: #1ac3d8;
+}
+
+.text-hover-primary-main-light-1:hover {
+  background-color: #1ac3d8;
+}
+
+.text-primary-main-light-2 {
+  background-color: #33c9dd;
+}
+
+.text-hover-primary-main-light-2:hover {
+  background-color: #33c9dd;
+}
+
+.text-primary-main-light-3 {
+  background-color: #4dd0e1;
+}
+
+.text-hover-primary-main-light-3:hover {
+  background-color: #4dd0e1;
+}
+
+.text-primary-main-light-4 {
+  background-color: #66d7e5;
+}
+
+.text-hover-primary-main-light-4:hover {
+  background-color: #66d7e5;
+}
+
+.text-primary-main-light-5 {
+  background-color: #80deea;
+}
+
+.text-hover-primary-main-light-5:hover {
+  background-color: #80deea;
+}
+
+.text-primary-main-light-6 {
+  background-color: #99e4ee;
+}
+
+.text-hover-primary-main-light-6:hover {
+  background-color: #99e4ee;
+}
+
+.text-primary-main-light-7 {
+  background-color: #b3ebf2;
+}
+
+.text-hover-primary-main-light-7:hover {
+  background-color: #b3ebf2;
+}
+
+.text-primary-main-light-8 {
+  background-color: #ccf2f6;
+}
+
+.text-hover-primary-main-light-8:hover {
+  background-color: #ccf2f6;
+}
+
+.text-primary-main-light-9 {
+  background-color: #e6f8fb;
+}
+
+.text-hover-primary-main-light-9:hover {
+  background-color: #e6f8fb;
+}
+
+.text-primary-main--dark-1 {
+  background-color: #00a9bf;
+}
+
+.text-hover-primary-main-light-1:hover {
+  background-color: #00a9bf;
+}
+
+.text-primary-main--dark-2 {
+  background-color: #0096aa;
+}
+
+.text-hover-primary-main-light-2:hover {
+  background-color: #0096aa;
+}
+
+.text-primary-main--dark-3 {
+  background-color: #008494;
+}
+
+.text-hover-primary-main-light-3:hover {
+  background-color: #008494;
+}
+
+.text-primary-main--dark-4 {
+  background-color: #00717f;
+}
+
+.text-hover-primary-main-light-4:hover {
+  background-color: #00717f;
+}
+
+.text-primary-main--dark-5 {
+  background-color: #005e6a;
+}
+
+.text-hover-primary-main-light-5:hover {
+  background-color: #005e6a;
+}
+
+.text-primary-main--dark-6 {
+  background-color: #004b55;
+}
+
+.text-hover-primary-main-light-6:hover {
+  background-color: #004b55;
+}
+
+.text-primary-main--dark-7 {
+  background-color: #003840;
+}
+
+.text-hover-primary-main-light-7:hover {
+  background-color: #003840;
+}
+
+.text-primary-main--dark-8 {
+  background-color: #00262a;
+}
+
+.text-hover-primary-main-light-8:hover {
+  background-color: #00262a;
+}
+
+.text-primary-main--dark-9 {
+  background-color: #001315;
+}
+
+.text-hover-primary-main-light-9:hover {
+  background-color: #001315;
 }
 
 .text-primary-light {
-  color: #fff;
+  color: #b3e5fc;
 }
 
 .text-hover-primary-light:hover {
-  color: white;
+  color: #ccedfd;
+}
+
+.text-primary-light-light-1 {
+  background-color: #bbe8fc;
+}
+
+.text-hover-primary-light-light-1:hover {
+  background-color: #bbe8fc;
+}
+
+.text-primary-light-light-2 {
+  background-color: #c2eafd;
+}
+
+.text-hover-primary-light-light-2:hover {
+  background-color: #c2eafd;
+}
+
+.text-primary-light-light-3 {
+  background-color: #caedfd;
+}
+
+.text-hover-primary-light-light-3:hover {
+  background-color: #caedfd;
+}
+
+.text-primary-light-light-4 {
+  background-color: #d1effd;
+}
+
+.text-hover-primary-light-light-4:hover {
+  background-color: #d1effd;
+}
+
+.text-primary-light-light-5 {
+  background-color: #d9f2fe;
+}
+
+.text-hover-primary-light-light-5:hover {
+  background-color: #d9f2fe;
+}
+
+.text-primary-light-light-6 {
+  background-color: #e1f5fe;
+}
+
+.text-hover-primary-light-light-6:hover {
+  background-color: #e1f5fe;
+}
+
+.text-primary-light-light-7 {
+  background-color: #e8f7fe;
+}
+
+.text-hover-primary-light-light-7:hover {
+  background-color: #e8f7fe;
+}
+
+.text-primary-light-light-8 {
+  background-color: #f0fafe;
+}
+
+.text-hover-primary-light-light-8:hover {
+  background-color: #f0fafe;
+}
+
+.text-primary-light-light-9 {
+  background-color: #f7fcff;
+}
+
+.text-hover-primary-light-light-9:hover {
+  background-color: #f7fcff;
+}
+
+.text-primary-light--dark-1 {
+  background-color: #a1cee3;
+}
+
+.text-hover-primary-light-light-1:hover {
+  background-color: #a1cee3;
+}
+
+.text-primary-light--dark-2 {
+  background-color: #8fb7ca;
+}
+
+.text-hover-primary-light-light-2:hover {
+  background-color: #8fb7ca;
+}
+
+.text-primary-light--dark-3 {
+  background-color: #7da0b0;
+}
+
+.text-hover-primary-light-light-3:hover {
+  background-color: #7da0b0;
+}
+
+.text-primary-light--dark-4 {
+  background-color: #6b8997;
+}
+
+.text-hover-primary-light-light-4:hover {
+  background-color: #6b8997;
+}
+
+.text-primary-light--dark-5 {
+  background-color: #5a737e;
+}
+
+.text-hover-primary-light-light-5:hover {
+  background-color: #5a737e;
+}
+
+.text-primary-light--dark-6 {
+  background-color: #485c65;
+}
+
+.text-hover-primary-light-light-6:hover {
+  background-color: #485c65;
+}
+
+.text-primary-light--dark-7 {
+  background-color: #36454c;
+}
+
+.text-hover-primary-light-light-7:hover {
+  background-color: #36454c;
+}
+
+.text-primary-light--dark-8 {
+  background-color: #242e32;
+}
+
+.text-hover-primary-light-light-8:hover {
+  background-color: #242e32;
+}
+
+.text-primary-light--dark-9 {
+  background-color: #121719;
+}
+
+.text-hover-primary-light-light-9:hover {
+  background-color: #121719;
 }
 
 .text-primary-dark {
-  color: #111;
+  color: #00acc1;
 }
 
 .text-hover-primary-dark:hover {
-  color: #1e1e1e;
+  color: #00c3db;
 }
 
 .text-primary-dark-light-1 {
-  background-color: #292929;
+  background-color: #1ab4c7;
 }
 
 .text-hover-primary-dark-light-1:hover {
-  background-color: #292929;
+  background-color: #1ab4c7;
 }
 
 .text-primary-dark-light-2 {
-  background-color: #414141;
+  background-color: #33bdcd;
 }
 
 .text-hover-primary-dark-light-2:hover {
-  background-color: #414141;
+  background-color: #33bdcd;
 }
 
 .text-primary-dark-light-3 {
-  background-color: #585858;
+  background-color: #4dc5d4;
 }
 
 .text-hover-primary-dark-light-3:hover {
-  background-color: #585858;
+  background-color: #4dc5d4;
 }
 
 .text-primary-dark-light-4 {
-  background-color: #707070;
+  background-color: #66cdda;
 }
 
 .text-hover-primary-dark-light-4:hover {
-  background-color: #707070;
+  background-color: #66cdda;
 }
 
 .text-primary-dark-light-5 {
-  background-color: #888888;
+  background-color: #80d6e0;
 }
 
 .text-hover-primary-dark-light-5:hover {
-  background-color: #888888;
+  background-color: #80d6e0;
 }
 
 .text-primary-dark-light-6 {
-  background-color: #a0a0a0;
+  background-color: #99dee6;
 }
 
 .text-hover-primary-dark-light-6:hover {
-  background-color: #a0a0a0;
+  background-color: #99dee6;
 }
 
 .text-primary-dark-light-7 {
-  background-color: #b8b8b8;
+  background-color: #b3e6ec;
 }
 
 .text-hover-primary-dark-light-7:hover {
-  background-color: #b8b8b8;
+  background-color: #b3e6ec;
 }
 
 .text-primary-dark-light-8 {
-  background-color: #cfcfcf;
+  background-color: #cceef3;
 }
 
 .text-hover-primary-dark-light-8:hover {
-  background-color: #cfcfcf;
+  background-color: #cceef3;
 }
 
 .text-primary-dark-light-9 {
-  background-color: #e7e7e7;
+  background-color: #e6f7f9;
 }
 
 .text-hover-primary-dark-light-9:hover {
-  background-color: #e7e7e7;
+  background-color: #e6f7f9;
 }
 
 .text-primary-dark--dark-1 {
-  background-color: #0f0f0f;
+  background-color: #009bae;
 }
 
 .text-hover-primary-dark-light-1:hover {
-  background-color: #0f0f0f;
+  background-color: #009bae;
 }
 
 .text-primary-dark--dark-2 {
-  background-color: #0e0e0e;
+  background-color: #008a9a;
 }
 
 .text-hover-primary-dark-light-2:hover {
-  background-color: #0e0e0e;
+  background-color: #008a9a;
 }
 
 .text-primary-dark--dark-3 {
-  background-color: #0c0c0c;
+  background-color: #007887;
 }
 
 .text-hover-primary-dark-light-3:hover {
-  background-color: #0c0c0c;
+  background-color: #007887;
 }
 
 .text-primary-dark--dark-4 {
-  background-color: #0a0a0a;
+  background-color: #006774;
 }
 
 .text-hover-primary-dark-light-4:hover {
-  background-color: #0a0a0a;
+  background-color: #006774;
 }
 
 .text-primary-dark--dark-5 {
-  background-color: #090909;
+  background-color: #005661;
 }
 
 .text-hover-primary-dark-light-5:hover {
-  background-color: #090909;
+  background-color: #005661;
 }
 
 .text-primary-dark--dark-6 {
-  background-color: #070707;
+  background-color: #00454d;
 }
 
 .text-hover-primary-dark-light-6:hover {
-  background-color: #070707;
+  background-color: #00454d;
 }
 
 .text-primary-dark--dark-7 {
-  background-color: #050505;
+  background-color: #00343a;
 }
 
 .text-hover-primary-dark-light-7:hover {
-  background-color: #050505;
+  background-color: #00343a;
 }
 
 .text-primary-dark--dark-8 {
-  background-color: #030303;
+  background-color: #002227;
 }
 
 .text-hover-primary-dark-light-8:hover {
-  background-color: #030303;
+  background-color: #002227;
 }
 
 .text-primary-dark--dark-9 {
-  background-color: #020202;
+  background-color: #001113;
 }
 
 .text-hover-primary-dark-light-9:hover {
-  background-color: #020202;
+  background-color: #001113;
 }
 
 .text-primary-contrast {
@@ -3883,7 +4172,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #e2e2e2;
 }
@@ -3893,13 +4182,13 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
-  background-color: #000;
+  background-color: #00bcd4;
 }
 
 .btn-primary-main:hover {
-  background-color: #0d0d0d;
+  background-color: #00d3ee;
 }
 
 .btn-outlined-primary-main {
@@ -3907,14 +4196,14 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
-  border: 1px solid #000;
+  border: 1px solid #00bcd4;
 }
 
 .btn-outlined-primary-main:hover {
-  background-color: #000;
+  background-color: #00bcd4;
 }
 
 .btn-primary-light {
@@ -3922,13 +4211,13 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #b3e5fc;
 }
 
 .btn-primary-light:hover {
-  background-color: white;
+  background-color: #ccedfd;
 }
 
 .btn-outlined-primary-light {
@@ -3936,14 +4225,14 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid #b3e5fc;
 }
 
 .btn-outlined-primary-light:hover {
-  background-color: #fff;
+  background-color: #b3e5fc;
 }
 
 .btn-primary-dark {
@@ -3951,13 +4240,13 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
-  background-color: #111;
+  background-color: #00acc1;
 }
 
 .btn-primary-dark:hover {
-  background-color: #1e1e1e;
+  background-color: #00c3db;
 }
 
 .btn-outlined-primary-dark {
@@ -3965,14 +4254,14 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
-  border: 1px solid #111;
+  border: 1px solid #00acc1;
 }
 
 .btn-outlined-primary-dark:hover {
-  background-color: #111;
+  background-color: #00acc1;
 }
 
 .btn-primary-contrast {
@@ -3980,7 +4269,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
 }
@@ -3994,7 +4283,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #fff;
@@ -4009,7 +4298,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #ffc107;
 }
@@ -4023,7 +4312,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #ffc107;
@@ -4038,7 +4327,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff3e0;
 }
@@ -4052,7 +4341,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #fff3e0;
@@ -4067,7 +4356,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #c2a700;
 }
@@ -4081,7 +4370,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #c2a700;
@@ -4096,7 +4385,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #000;
 }
@@ -4110,7 +4399,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #000;
@@ -4125,7 +4414,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #4caf50;
 }
@@ -4139,7 +4428,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #4caf50;
@@ -4154,7 +4443,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #e8f5e9;
 }
@@ -4168,7 +4457,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #e8f5e9;
@@ -4183,7 +4472,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #388e3c;
 }
@@ -4197,7 +4486,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #388e3c;
@@ -4212,7 +4501,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
 }
@@ -4226,7 +4515,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #fff;
@@ -4241,7 +4530,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #2196f3;
 }
@@ -4255,7 +4544,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #2196f3;
@@ -4270,7 +4559,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #e3f2fd;
 }
@@ -4284,7 +4573,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #e3f2fd;
@@ -4299,7 +4588,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #0d47a1;
 }
@@ -4313,7 +4602,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #0d47a1;
@@ -4328,7 +4617,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
 }
@@ -4342,7 +4631,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #fff;
@@ -4357,7 +4646,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #ff9800;
 }
@@ -4371,7 +4660,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #ff9800;
@@ -4386,7 +4675,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff3e0;
 }
@@ -4400,7 +4689,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #fff3e0;
@@ -4415,7 +4704,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #c27d0e;
 }
@@ -4429,7 +4718,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #c27d0e;
@@ -4444,7 +4733,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #000;
 }
@@ -4458,7 +4747,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #000;
@@ -4473,7 +4762,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #f44336;
 }
@@ -4487,7 +4776,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #f44336;
@@ -4502,7 +4791,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fce7e7;
 }
@@ -4516,7 +4805,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #fce7e7;
@@ -4531,7 +4820,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #b71c1c;
 }
@@ -4545,7 +4834,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #b71c1c;
@@ -4560,7 +4849,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
 }
@@ -4574,7 +4863,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #fff;
@@ -4589,7 +4878,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #f8f9fa;
 }
@@ -4603,7 +4892,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #f8f9fa;
@@ -4618,7 +4907,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #f8f9fa;
 }
@@ -4632,7 +4921,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #f8f9fa;
@@ -4647,7 +4936,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #cbd3d9;
 }
@@ -4661,7 +4950,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #cbd3d9;
@@ -4676,7 +4965,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #000;
 }
@@ -4690,7 +4979,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #000;
@@ -4705,7 +4994,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #343a40;
 }
@@ -4719,7 +5008,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #343a40;
@@ -4734,7 +5023,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #343a40;
 }
@@ -4748,7 +5037,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #343a40;
@@ -4763,7 +5052,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #1d2124;
 }
@@ -4777,7 +5066,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #1d2124;
@@ -4792,7 +5081,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
 }
@@ -4806,7 +5095,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #fff;
@@ -4821,7 +5110,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
 }
@@ -4835,7 +5124,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #fff;
@@ -4850,7 +5139,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
 }
@@ -4864,7 +5153,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #fff;
@@ -4879,7 +5168,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
 }
@@ -4893,7 +5182,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #fff;
@@ -4908,7 +5197,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #000;
 }
@@ -4922,7 +5211,7 @@
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 1em 2em;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #000;
@@ -4933,87 +5222,231 @@
 }
 
 .bg-primary-main {
-  background-color: #000;
+  background-color: #00bcd4;
+}
+
+.bg-primary-main-light-1 {
+  background-color: #1ac3d8;
+}
+
+.bg-primary-main-light-2 {
+  background-color: #33c9dd;
+}
+
+.bg-primary-main-light-3 {
+  background-color: #4dd0e1;
+}
+
+.bg-primary-main-light-4 {
+  background-color: #66d7e5;
+}
+
+.bg-primary-main-light-5 {
+  background-color: #80deea;
+}
+
+.bg-primary-main-light-6 {
+  background-color: #99e4ee;
+}
+
+.bg-primary-main-light-7 {
+  background-color: #b3ebf2;
+}
+
+.bg-primary-main-light-8 {
+  background-color: #ccf2f6;
+}
+
+.bg-primary-main-light-9 {
+  background-color: #e6f8fb;
+}
+
+.bg-primary-main--dark-1 {
+  background-color: #00a9bf;
+}
+
+.bg-primary-main--dark-2 {
+  background-color: #0096aa;
+}
+
+.bg-primary-main--dark-3 {
+  background-color: #008494;
+}
+
+.bg-primary-main--dark-4 {
+  background-color: #00717f;
+}
+
+.bg-primary-main--dark-5 {
+  background-color: #005e6a;
+}
+
+.bg-primary-main--dark-6 {
+  background-color: #004b55;
+}
+
+.bg-primary-main--dark-7 {
+  background-color: #003840;
+}
+
+.bg-primary-main--dark-8 {
+  background-color: #00262a;
+}
+
+.bg-primary-main--dark-9 {
+  background-color: #001315;
 }
 
 .bg-primary-light {
-  background-color: #fff;
+  background-color: #b3e5fc;
+}
+
+.bg-primary-light-light-1 {
+  background-color: #bbe8fc;
+}
+
+.bg-primary-light-light-2 {
+  background-color: #c2eafd;
+}
+
+.bg-primary-light-light-3 {
+  background-color: #caedfd;
+}
+
+.bg-primary-light-light-4 {
+  background-color: #d1effd;
+}
+
+.bg-primary-light-light-5 {
+  background-color: #d9f2fe;
+}
+
+.bg-primary-light-light-6 {
+  background-color: #e1f5fe;
+}
+
+.bg-primary-light-light-7 {
+  background-color: #e8f7fe;
+}
+
+.bg-primary-light-light-8 {
+  background-color: #f0fafe;
+}
+
+.bg-primary-light-light-9 {
+  background-color: #f7fcff;
+}
+
+.bg-primary-light--dark-1 {
+  background-color: #a1cee3;
+}
+
+.bg-primary-light--dark-2 {
+  background-color: #8fb7ca;
+}
+
+.bg-primary-light--dark-3 {
+  background-color: #7da0b0;
+}
+
+.bg-primary-light--dark-4 {
+  background-color: #6b8997;
+}
+
+.bg-primary-light--dark-5 {
+  background-color: #5a737e;
+}
+
+.bg-primary-light--dark-6 {
+  background-color: #485c65;
+}
+
+.bg-primary-light--dark-7 {
+  background-color: #36454c;
+}
+
+.bg-primary-light--dark-8 {
+  background-color: #242e32;
+}
+
+.bg-primary-light--dark-9 {
+  background-color: #121719;
 }
 
 .bg-primary-dark {
-  background-color: #111;
+  background-color: #00acc1;
 }
 
 .bg-primary-dark-light-1 {
-  background-color: #292929;
+  background-color: #1ab4c7;
 }
 
 .bg-primary-dark-light-2 {
-  background-color: #414141;
+  background-color: #33bdcd;
 }
 
 .bg-primary-dark-light-3 {
-  background-color: #585858;
+  background-color: #4dc5d4;
 }
 
 .bg-primary-dark-light-4 {
-  background-color: #707070;
+  background-color: #66cdda;
 }
 
 .bg-primary-dark-light-5 {
-  background-color: #888888;
+  background-color: #80d6e0;
 }
 
 .bg-primary-dark-light-6 {
-  background-color: #a0a0a0;
+  background-color: #99dee6;
 }
 
 .bg-primary-dark-light-7 {
-  background-color: #b8b8b8;
+  background-color: #b3e6ec;
 }
 
 .bg-primary-dark-light-8 {
-  background-color: #cfcfcf;
+  background-color: #cceef3;
 }
 
 .bg-primary-dark-light-9 {
-  background-color: #e7e7e7;
+  background-color: #e6f7f9;
 }
 
 .bg-primary-dark--dark-1 {
-  background-color: #0f0f0f;
+  background-color: #009bae;
 }
 
 .bg-primary-dark--dark-2 {
-  background-color: #0e0e0e;
+  background-color: #008a9a;
 }
 
 .bg-primary-dark--dark-3 {
-  background-color: #0c0c0c;
+  background-color: #007887;
 }
 
 .bg-primary-dark--dark-4 {
-  background-color: #0a0a0a;
+  background-color: #006774;
 }
 
 .bg-primary-dark--dark-5 {
-  background-color: #090909;
+  background-color: #005661;
 }
 
 .bg-primary-dark--dark-6 {
-  background-color: #070707;
+  background-color: #00454d;
 }
 
 .bg-primary-dark--dark-7 {
-  background-color: #050505;
+  background-color: #00343a;
 }
 
 .bg-primary-dark--dark-8 {
-  background-color: #030303;
+  background-color: #002227;
 }
 
 .bg-primary-dark--dark-9 {
-  background-color: #020202;
+  background-color: #001113;
 }
 
 .bg-primary-contrast {
@@ -7460,4 +7893,54 @@
     flex-grow: 0;
     width: 100%;
   }
+}
+.justify-flex-start {
+  justify-content: flex-start;
+}
+
+.justify-flex-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-space-evenly {
+  justify-content: space-evenly;
+}
+
+* {
+  color: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: Poppins;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dotted #efefef;
+}
+
+img {
+  max-width: 100%;
 }/*# sourceMappingURL=style.css.map */
