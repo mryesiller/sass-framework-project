@@ -1,0 +1,7 @@
+$align-values: flex-start,flex-end,center,stretch,start,end,center,baseline,right,left;
+
+@each $val in $align-values {
+    .align-#{$val} {
+        align-items: $val;
+    }
+}

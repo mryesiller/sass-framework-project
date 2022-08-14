@@ -1,5 +1,7 @@
 @use 'sass:math';
 
+
+//font-size
 $font-size-base: 1rem !default;
 $font-size-small: $font-size-base * 0.75 !default;
 $font-size-large: $font-size-base * 1.5 !default;
@@ -29,6 +31,40 @@ $fontsizes : (
     }
  }
 
+
+//font-weight
+$font-weight-base: 100 !default;
+
+$fontweights : (
+    "font-weight": (
+        "prefix":"font",
+        "values":(        
+            "100":$font-weight-base,
+            "200":$font-weight-base*2,
+            "300":$font-weight-base*3,
+            "400":$font-weight-base*4,
+            "500":$font-weight-base*5,
+            "600":$font-weight-base*6,
+            "700":$font-weight-base*7,
+            "800":$font-weight-base*8,
+            "900":$font-weight-base*9,
+        )
+    ),
+);
+
+@each $property,$map in $fontweights {
+    $prefix : map-get($map,"prefix");
+    $values : map-get($map,"values");
+    @each $k,$v in $values {
+     .#{$prefix}-#{$k} {
+         #{$property} : $v;
+     }
+    }
+ }
+
+
+
+ //padding size
 $padding-base-vertical:     8px !default;
 $padding-base-horizontal:   16px !default;
  

@@ -1,26 +1,5 @@
 @use '../variables/' as *;
 
-// @each $key , $value in $colors {
-//     @each $k , $v in $value {
-//         .bg-#{$key}-#{$k} {
-//             background-color : $v;
-//         }
-//         @if ($v != black and $v != white) {
-//             @for $i from 1 through 9 {
-//                 .bg-#{$key}-#{$k}-light-#{$i} {
-//                     background-color : mix(white,$v,$i*10);
-//                 }
-//             }
-//             @for $i from 1 through 9 {
-//                 .bg-#{$key}-#{$k}--dark-#{$i} {
-//                     background-color : mix(black,$v,$i*10);
-//                 }
-//             }  
-//         }
-        
-//     }
-// } 
-
 @each $key,$val in $colors {
     .bg-#{$key} {
         color : $white;
